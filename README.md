@@ -9,9 +9,24 @@
   
  ## Part 1
  Extract the Data:<br>
- 1. Read in each dataset with correct header and parameters
- 2. Calculate the shape of the dataset
+ - Read in each dataset with correct header and parameters
+ - Calculated the shape of the dataset
  
  Transform the Data: <br>
+ - Created a review_df with appropriate columns and data types
+ - Created a product_df with dropped duplicates in both columns
+ - Created a customer_df that grouped data on 'customer_id' by the # of times a customer reviewed a product 
+ - Created a vine_df with the necessary aggregated columns
  
+ Load the Data into an RDS Instance<br>
+ - Exported into postgreSql server wtih the necessary tables for analyzes 
+ 
+ ## Part 2 
+ > I explored various methods to investigate whether Vine reviews were free of bias. Implemented PySpark and SQL to analyze the data
+<br>
+1. For analysis, I considered steps to reducing noisy data by filtering reviews by certain criteria
+
+## Summary:
+
+
 
